@@ -1,0 +1,20 @@
+Cloud Native Computing Foundation(CNCF) definition:
+- Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, privae or hybrid cloud
+- For pillars of cloud native foundation:
+  - Containers
+  - Service mesh
+  - Microservices
+  - Immutable infrastructure
+  - Declarative APIs
+
+Cloud native application architecture:
+Clean Code-->Domain Driven Design(DDD)->>Microservices Principles->>Kubernetes patterns
+
+Cloud native trail map -( https://www.cncf.io/blog/2018/03/08/introducing-the-cloud-native-landscape-2-0-interactive-edition/):
+- Containerization
+- CI/CD
+- Orchestration and Application definition
+- Observability and analysis
+- Service Proxy, Discovery and Mesh
+- Networking, Policy and Security
+- and few more:)
