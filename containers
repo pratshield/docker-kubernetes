@@ -1,0 +1,22 @@
+What is a container?
+  A container is a unit of software/deployment which containers everything needed for the code to run:
+  - Code
+  - Runtime
+  - System tools
+  - System libraries
+
+Why containers?
+  - Faster to deploy smaller units
+  - Use fewer resources
+  - Faster automation
+  - Portability
+  - Isolation
+
+Containers are made of layers:
+- Base OS (Read only)
+- Customizations on OS (Read only)
+- Application (Can write)
+
+Container Registry:
+- It is a centralized container repository
+- e.g. Docker Hub(https://hub.docker.com/), AWS, Azure, GCP
