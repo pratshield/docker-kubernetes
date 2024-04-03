@@ -1,0 +1,26 @@
+Microservices Architecture:
+A variant of the service-orientes-architecture(SOA) structure style - arranges an application as a collection of loosely coupled services
+In a microservices architecture, the services are fine grained and protocols are lightweight
+
+Monolithic Architecture:
+- Built as a single unit
+- Deployed as a single unit
+- Duplicated on each server
+- e.g. 3-tier applications 
+
+Microservices:
+- Segregates functionality into smaller separate services each with single responsibility
+- Scales out by deploying each services independently
+- Loosely coupled
+- Enable autonomous development by different teams, languages and platforms
+- Can be written by smaller teams
+- Each microservice can own its own database/data
+
+Transforming Monolith application into Microservices:
+- Break your application/system into multiple units
+- Use the Strangler Pattern (https://martinfowler.com/bliki/StranglerFigApplication.html)
+
+Downsides of Microservices:
+- Risk of unnecessary complexity
+- Risk that changes/impact many services(domino effect)
+- Risk of complex security
