@@ -22,4 +22,15 @@ Follow the installation guide [Get Docker](https://docs.docker.com/get-docker/)
 - ```docker kill <containerName>``` Kill containers
 - ```docker image inspect <imageName>``` Get image info
 
+### Attach shell
+- ```docker run -it nginx -- /bin/bash``` Attach shell
+- ```docker run -it -- microsoft/powershell:nanoserver pwsh.exe``` Attach powershell
+- ```docker exec -it <containerName> --bash``` Attach to a running container
+
+### Clean up containers
+- ```docker rm <containerName>``` Removes stopped containers
+- ```docker rm $(docker ps -a -q)``` Removes all stopped containers
+- ```docker images``` List down all images
+- ```docker rmi <imageName>``` Deletes the images
+- ```docker system prune -a``` Removes all images not being used by any containers 
     
