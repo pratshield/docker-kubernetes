@@ -33,4 +33,10 @@ Follow the installation guide [Get Docker](https://docs.docker.com/get-docker/)
 - ```docker images``` List down all images
 - ```docker rmi <imageName>``` Deletes the images
 - ```docker system prune -a``` Removes all images not being used by any containers 
-    
+
+### Build containers
+- ```docker build -t <name:tag> .``` Builds an image using dockerfile located in the same folder
+- ```docker build -t <name:tag> -f <fileName>``` Builds an image using dockerfile located in a different folder
+- ```docker tag <imageName> <name:tag>``` Tag an existing image
+
+
