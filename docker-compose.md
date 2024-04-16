@@ -18,4 +18,4 @@ docker compose is used to define and run multiple containers simultaneously
 - ```docker compose logs``` Get the logs
 - ```docker compose exec <containerName> bash``` Run a command in a container
 
-> ```docker-compose```` is docker version 01 and ```docker compose``` is docker version 02. Docker version 02 is faster than version 01
+> ```docker-compose``` is docker version 01 and ```docker compose``` is docker version 02. Docker version 02 is faster than version 01
