@@ -11,6 +11,9 @@
 
 ## Kubectx - quickly switch context
 Instead of typing:
+
 ```kubectl config user-context <contextName>```
+
 simply type:
-```kubectx <contextName>
+
+```kubectx <contextName>```
