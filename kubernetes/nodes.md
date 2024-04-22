@@ -8,7 +8,7 @@ Nodes are physical or virtual machines. Together they form the cluster
 
 ```mermaid
 flowchart TB
-  subgraph [Control Plane]
+  subgraph `Control Plane`
   A[kube-controller manager]
   B[cloud-controller manager]
   C[kube-apiserver]
