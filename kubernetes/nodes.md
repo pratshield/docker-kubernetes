@@ -16,8 +16,12 @@ flowchart TB
   E((etcd))
   end
   subgraph "Worker node"
+  W11
+  W12 
   end
   subgraph "Worker node"
+  W21
+  W22
   end
 ```
   
