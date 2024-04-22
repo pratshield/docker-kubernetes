@@ -11,9 +11,10 @@ flowchart LR
   subgraph "Control Plane/Master node"
   A[kube-controller manager]
   B[cloud-controller manager]
-  C[kube-apiserver]-->E
+  C[kube-apiserver]
   D[kube-scheduler]
   E((etcd))
+  C-->E
   end
   subgraph "Worker node"
   W11
