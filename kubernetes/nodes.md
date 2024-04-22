@@ -11,7 +11,7 @@ flowchart TB
   subgraph "Control Plane/Master node"
   A[kube-controller manager]
   B[cloud-controller manager]
-  C[kube-apiserver]
+  C[kube-apiserver]-->E
   D[kube-scheduler]
   E((etcd))
   end
