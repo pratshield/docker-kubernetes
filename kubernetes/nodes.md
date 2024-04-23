@@ -14,7 +14,7 @@ flowchart TB
   B[cloud-controller manager]
   C[kube-apiserver]
   D[kube-scheduler]
-  E((etcd))
+  E[(etcd)]
   C-->E
   end
   subgraph "Worker node"
